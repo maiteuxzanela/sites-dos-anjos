@@ -1,0 +1,11 @@
+{
+  "title": "antiques",
+  "description": "This web application enables users to create and manage their own online stores, providing tools for product listings, payment processing, and inventory management.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
