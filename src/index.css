@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-cream: #f5f0e8;
+  --color-cream-dark: #ede5d5;
+  --color-bark: #2c2016;
+  --color-bark-light: #5a4a38;
+  --color-terra: #b85c38;
+  --color-terra-light: #d4825e;
+  --color-sage: #7a8c6e;
+  --color-warm-white: #faf7f2;
+}
+
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #faf7f2;
+  color: #2c2016;
+}
+
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+
+.scrollbar-show {
+  scrollbar-width: thin;
+}
